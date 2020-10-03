@@ -1,3 +1,5 @@
+## Edx_UBCx_Software Engineering
+
 ## 1 Introduction
 
 ### 1.1 Programming language introduction
@@ -80,11 +82,11 @@ typescript没有concurrency，那是java里的概念
 
 **Single Threaded, Non-Blocking, Asynchronous **: blocking是在single thread程序中应该竭力避免发生的问题，当某一处发生了blocking，如果没有asynchronous mechanism来处理，就会导致无意义的等待(sitting idle)，等one statement的时间是可以执行thousands of other statements的。
 
-typescript和JavaScript虽然都是single threaded，但是它们可以**`offload`** blocking，把阻塞的地方隔离到另外一个platform运行，这个机制就是asynchronous。
+typescript和JavaScript虽然都是single threaded，但是它们可以`offload` blocking，把阻塞的地方隔离到另外一个platform运行，这个机制就是asynchronous。
 
 ### 1.3 Introduction to Concurrency and Asynchronous Development: Part 2
 
-**callbacks(回调函数)**: callback function是被作为参数传递给另一个函数的函数，这属于**`函数式编程`**。比如函数setTimeOut(onDone, delay)，其中onDone函数作为参数传递到setTimeOut中，它就是callback：
+**callbacks(回调函数)**: callback function是被作为参数传递给另一个函数的函数，这属于`函数式编程`。比如函数setTimeOut(onDone, delay)，其中onDone函数作为参数传递到setTimeOut中，它就是callback：
 
 ```typescript
 setTimeOut(display, 1000); //等待1000ms后，执行display函数
