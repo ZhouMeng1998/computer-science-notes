@@ -12,7 +12,7 @@
 - 每一行我们都用NOT和AND来表示一个式子，如第二行NOT(X) AND Y AND NOT(Z)
 - 然后OR
 
-![计算机生成了可选文字: TruthTabletoBooleanExpression (NOT(x)ANDNOT(y)ANDNOT(z)) (NOT(x)ANDYANDN0T(z)) （×ANDN0T(y)ANDNOT(z)) OR OR (NOT(x)ANDNOT(z))OR(xANDNOT(y)ANDNOT(z)) (NOT(x)ANDNOT(z))OR(NOT(Y)ANDNOT(z)) NOT(z)AND(NOT(x)ORNOT(y))](C:\Users\Philip\Desktop\Courses\笔记\cs-notes\computer-science-notes\IMG\clip_image001.png)
+![计算机生成了可选文字: TruthTabletoBooleanExpression (NOT(x)ANDNOT(y)ANDNOT(z)) (NOT(x)ANDYANDN0T(z)) （×ANDN0T(y)ANDNOT(z)) OR OR (NOT(x)ANDNOT(z))OR(xANDNOT(y)ANDNOT(z)) (NOT(x)ANDNOT(z))OR(NOT(Y)ANDNOT(z)) NOT(z)AND(NOT(x)ORNOT(y))](https://raw.githubusercontent.com/ZhouMeng1998/computer-science-notes/main/IMG/202010/03/141901-795663.png)
 
 把这个式子不断化简，就得到NOT(Z) AND ((NOT(X)) OR NOT(y))
 
@@ -44,3 +44,4 @@
 
 #### 1.3 Logic Gates
 
+逻辑门
