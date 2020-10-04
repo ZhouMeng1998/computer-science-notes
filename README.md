@@ -21,7 +21,9 @@ Be a lifelong learner.
   - **Core security**
 - **Advanced CS**
   - **Advanced programming**
+    - [Parallel, Concurrent, and Distributed Programming in Java](./notes/Advanced%20Java/Parallel%20Programming%20in%20Java.md)
   - **Advanced systems**
   - **Advanced theory**
   - **Advanced applications**
 - **Final project**
+

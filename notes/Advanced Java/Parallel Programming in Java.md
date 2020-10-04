@@ -76,4 +76,15 @@ JAVA通过ASYNC与FINISH这两个信号来确定并行代码的范围(起止)与
 
 #### 1.6 Demonstration
 
+async/finish
+
 ![1601731752413](https://raw.githubusercontent.com/ZhouMeng1998/computer-science-notes/main/IMG/202010/03/212913-388107.png)
+
+fork/join
+
+![](https://raw.githubusercontent.com/ZhouMeng1998/IMG/main/typora202010/04/155138-906645.jpeg?token=AL5RCTDKIRCM7IRHK2G2FPC7PF7UQ)
+
+注意sequential_threshold，如果数据比较少，用fork/join进行并发反而比sequential execution(即hi - lo < sequential_threshold的情形)要慢，这是因为else分支中递归的入栈出栈操作消耗时间，所以sequential_threshold尽量大一点，比如1000.
+
+
+
