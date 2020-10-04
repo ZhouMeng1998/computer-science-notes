@@ -7,7 +7,7 @@
 
 # Summary
 
-My notes of CS courses. Be a life-long learner.
+Be a lifelong learner.
 
 # Curriculum
 
