@@ -1,5 +1,4 @@
 # computer-science-notes
-[Nand2tetris](https://github.com/ZhouMeng1998/computer-science-notes/blob/main/notes/Nand2Tetris.md)
 
 # Contents
 
