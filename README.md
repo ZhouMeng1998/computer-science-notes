@@ -15,7 +15,7 @@ Be a lifelong learner.
   - [Core math](#core-math)
   - [CS Tools](#cs-tools)
   - [Core systems](#core-systems)
-    - [Nand2Tetris](notes/Computer Organization/Nand2Tetris.md)
+    - [Nand2Tetris](https://github.com/ossu/computer-science#prerequisites)
   - [Core theory](#core-theory)
   - [Core applications](#core-applications)
   - [Core security](#core-security)
