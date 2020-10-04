@@ -1,7 +1,5 @@
 # 1. Boolean Functions and Gate Logic
 
-#### 1.1 Boolean Logic
-
 #### 1.2 Boolean Functions Synthesis
 
 ##### 1.2.1 Truth Table to Boolean Expression
@@ -42,6 +40,3 @@
 
 **答案：D，用公式，(X NAND Y) = NOT(X AND Y)，就是D**
 
-#### 1.3 Logic Gates
-
-逻辑门
