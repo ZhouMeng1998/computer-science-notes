@@ -11,17 +11,17 @@ Be a lifelong learner.
 
 # Curriculum
 
-- [Core CS](#core-cs)
-  - [Core math](#core-math)
-  - [CS Tools](#cs-tools)
-  - [Core systems](#core-systems)
+- [Core CS]
+  - [Core math]
+  - [CS Tools]
+  - [Core systems]
     - [Nand2Tetris](./notes/Computer%20Organization/Nand2Tetris.md)
-  - [Core theory](#core-theory)
-  - [Core applications](#core-applications)
-  - [Core security](#core-security)
-- [Advanced CS](#advanced-cs)
-  - [Advanced programming](#advanced-programming)
-  - [Advanced systems](#advanced-systems)
-  - [Advanced theory](#advanced-theory)
-  - [Advanced applications](#advanced-applications)
-- [Final project](#final-project)
+  - [Core theory]
+  - [Core applications]
+  - [Core security]
+- [Advanced CS]
+  - [Advanced programming]
+  - [Advanced systems]
+  - [Advanced theory]
+  - [Advanced applications]
+- [Final project]
