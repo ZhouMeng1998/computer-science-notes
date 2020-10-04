@@ -17,6 +17,7 @@ Be a lifelong learner.
   - **Core systems**
     - [Nand2Tetris](./notes/Computer%20Organization/Nand2Tetris.md)
   - **Core theory**
+    - [SICP-CS61a](./notes/SICP/cs61a/cs61a.md)
   - **Core applications**
   - **Core security**
 - **Advanced CS**
