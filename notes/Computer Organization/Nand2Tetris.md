@@ -1,3 +1,5 @@
+[TOC]
+
 # 1. Boolean Functions and Gate Logic
 
 #### 1.2 Boolean Functions Synthesis
@@ -28,7 +30,7 @@
 
 用NAND表示NOT和AND
 
-![1601703435323](C:\Users\Philip\AppData\Roaming\Typora\typora-user-images\1601703435323.png)
+![1601703435323](https://raw.githubusercontent.com/ZhouMeng1998/computer-science-notes/main/IMG/202010/04/110937-705223.png)
 
 **习题：**
 
