@@ -1,13 +1,12 @@
-* [1\. Boolean Functions and Gate Logic](#1-boolean-functions-and-gate-logic)
-      * [1\.2 Boolean Functions Synthesis](#12-boolean-functions-synthesis)
-        * [1\.2\.1 Truth Table to Boolean Expression](#121-truth-table-to-boolean-expression)
-        * [1\.2\.2 AND, NOT](#122-and-not)
-        * [1\.2\.3 NAND](#123-nand)
-      * [1\.3 Logic Gates](#13-logic-gates)
-      * [1\.4 Hardware Description Language](#14-hardware-description-language)
-      * [1\.5 Hardware Simulation](#15-hardware-simulation)
-      * [1\.6 Multi\-Bit Buses](#16-multi-bit-buses)
-
+- [1. Boolean Functions and Gate Logic](#1-boolean-functions-and-gate-logic)
+      - [1.2 Boolean Functions Synthesis](#12-boolean-functions-synthesis)
+        * [1.2.1 Truth Table to Boolean Expression](#121-truth-table-to-boolean-expression)
+        * [1.2.2 AND, NOT](#122-and--not)
+        * [1.2.3 NAND](#123-nand)
+      - [1.3 Logic Gates](#13-logic-gates)
+      - [1.4 Hardware Description Language](#14-hardware-description-language)
+      - [1.5 Hardware Simulation](#15-hardware-simulation)
+      - [1.6 Multi-Bit Buses](#16-multi-bit-buses)
 
 # 1. Boolean Functions and Gate Logic
 
