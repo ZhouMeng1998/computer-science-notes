@@ -10,7 +10,7 @@ JAVA通过ASYNC与FINISH这两个信号来确定并行代码的范围(起止)与
 
 比如左边求一个数组的sum，并行编程是把左边和右边单独计算计算（divide-and-conquer），然后合并;左右分别计算的过程即并行，用ASYNC信号量进行协调，结束并行则是靠FINISH信号量。 
 
-比如右边S2,S3,S4三行代码是在并行处理，他们同时运行而不是一行一行来，下面的第五行则要等它们三个都执行完毕再执行。
+比如右边S2,S3,S4三行代码是**并行（非并发**），下面的第五行则要等它们三个都执行完毕再执行。
 
 这样一来，S2,S3,S4就可以用到多个processor(core)同时运行
 
@@ -26,7 +26,7 @@ JAVA通过ASYNC与FINISH这两个信号来确定并行代码的范围(起止)与
 
 ![FORK 今 ](https://raw.githubusercontent.com/ZhouMeng1998/computer-science-notes/main/IMG/202010/03/200329-132830.png)
 
-调用L.FORK()会创建一个new task来执行L.compute, L.join像一个同步信号量，它一直等直到fork()里的任务执行完毕
+用了fork，join就是并发(concurrent)了
 
 #### 1.3 computation graphs
 
@@ -38,7 +38,7 @@ JAVA通过ASYNC与FINISH这两个信号来确定并行代码的范围(起止)与
 
 - Work:1 + 10 + 1 +      10 = 22 即计算总量（或运行总时长）
 - **Span(critical path length, CPL)**:所有并行计算的fork中，the longest path，图中s1->s2->s4是12，s1->s3->s4也是12，所以span就是12
-- Ideal parallelism(并行数) = work      / span，最理想状态是work / span就是并行数，这里是22/12≈2，所以并非理想情况
+- Ideal parallelism(并行数) = work   / span，最理想状态是work / span就是并行数，这里是22/12≈2，所以并非理想情况
 
 #### 1.4 Multiprocessor Scheduling, Parallel Speedup
 
@@ -68,7 +68,7 @@ JAVA通过ASYNC与FINISH这两个信号来确定并行代码的范围(起止)与
 
 **Optional Reading:** Wikipedia article on [Amdahl’s law](https://en.wikipedia.org/wiki/Amdahl%27s_law#Speedup_in_a_serial_program).
 
-设q为你程序中不得不顺序执行(execute sequentially)statements的比例，所谓顺序执行是指s1->s2->s3->...->sn中，后一个statement必须前面statement执行完毕。Amdahl's law是说给定q，Speedup(p) <= 1 / q。这好理解，假设你程序中所有statements must be executed sequentially，那么1个processor与infinite processors是没区别的；而假设你所有statements can be executed concurrently，那么processor越多，速度越快。
+设q为你程序中不得不顺序执行(execute sequentially)statements的比例，即**不能并发只能并行statements的数量**。Amdahl's law是说给定q，Speedup(p) <= 1 / q。这好理解，假设你程序中所有statements must be executed sequentially，那么1个processor与infinite processors是没区别的；而假设你所有statements can be executed concurrently，那么processor越多，速度越快。
 
 详细推论请看上面的第二段文字。
 
