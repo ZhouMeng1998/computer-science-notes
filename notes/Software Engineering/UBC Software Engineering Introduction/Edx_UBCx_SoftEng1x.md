@@ -1,8 +1,13 @@
+
 * [Edx\_UBCx\_Software Engineering](#edx_ubcx_software-engineering)
 * [1 Introduction](#1-introduction)
   * [1\.1 Programming language introduction](#11-programming-language-introduction)
   * [1\.2 Introduction to Concurrency and Asynchronous Development: Part 1](#12-introduction-to-concurrency-and-asynchronous-development-part-1)
   * [1\.3 Introduction to Concurrency and Asynchronous Development: Part 2](#13-introduction-to-concurrency-and-asynchronous-development-part-2)
+
+
+
+
 
 ## Edx_UBCx_Software Engineering
 
@@ -110,4 +115,21 @@ function display(){
 3. 由于此时call stack为空(其他函数已经执行完毕), event loop会把callback queue中display的执行结果放到call stack中，程序结束
 
 ![1601712356285](https://raw.githubusercontent.com/ZhouMeng1998/computer-science-notes/main/IMG/202010/03/160556-510867.png)
+
+## 2 Process
+
+### 2.1 Why Process
+
+一个开发团队中有各类角色，把他们整合在一起，分工协作就叫process，so everybody can be on the same page。
+
+![image-20201009114551312](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201009114551.png)
+
+为了更好的协作，每个角色都需要不同的documentation，包含**specification，development，validation，deployment**四种。
+
+- specification: 产品目标，盈利模式，目标客户
+- development: software architecture，implementation--->developer最需要关注的
+- validation：比如risk assessment，这些主要是由QA负责
+- deployment：比如DevOps plans，maintenance
+
+小产品未必有这四项documentation，比如一个small app就可能不需要架构
 

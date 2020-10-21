@@ -87,6 +87,55 @@ Fun(int i){
 
 ------
 
+### 2 Controls
+------
+#### 2.1 Expressions
+![image-20201010085036536](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201010085036.png)
+
+print函数，返回值是None，所以打印也是None
+
+### ![image-20201010093604989](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201010093605.png)
+
+当你试图把sixteen(None) + 4，就会报错，TypeError
+
+> Pure Functions & Side-effects
+
+![image-20201010093926167](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201010093926.png)
+
+Non-Pure Functions有side effects，即如图的打印效果，而pure functions就是单纯计算，然后返回
+
+#### 2.3 Miscellaneous Python Features
+
+> truediv & floordiv
+
+```python
+2020 / 1000 = 2.02
+2020 // 1000 = 2(floordiv)
+
+//Multiple Return Values
+def divide_exact(n, d):
+    return n // d, n % d
+quotient, remainder = divide_exact(2020, 1000)
+>>> quotient
+2
+>>> remainder
+20
+```
+
+> DocTest and DocStrings
+
+![image-20201010101544490](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201010101552.png)
+
+> Default Value
+
+![image-20201010101710288](https://raw.githubusercontent.com/ZhouMeng1998/IMG/image-upload/20201010101717.png)
+
+> environment
+
+environment is a sequence of frames，中文翻译中的环境很混淆，其实就是各种栈帧的集合
+
+
+
 ### HW-01
 
 看最后一行return f(a, b)，f肯定是一个函数，而如果你写f = sub(a, b)，sub(a, b)是一个函数调用，返回的是一个int数值，也就是把一个int赋给了f，然后你再return f(a, b)肯定报错
